@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './imagenes/logo.svg';
+import './css/Header.css';
 
-class App extends Component {
+
+class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="Header">
+        <header className="Logo">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Hello World Reactjs
           </p>
           <a
             className="App-link"
@@ -17,7 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Lee sobre React
           </a>
         </header>
       </div>
@@ -25,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Header;
